@@ -1,0 +1,133 @@
+[INFO] Trainer: GASA | 2024-11-20_16-41-02 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] workspace/checkpoints/GASA_best.pth.tar not found, loading latest ...
+[INFO] Trainer: GASA | 2024-11-20_16-39-05 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+<------- 389 -------> Evaluate at epoch  
+RMSE = 1.417022
+val loss = 0.0012
+[INFO] Trainer: GASA | 2024-11-20_16-44-38 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+==> Finished Test.
+RMSE = 1.388023
+[INFO] Trainer: GASA | 2024-11-20_16-50-07 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_8
+==> Finished Test.
+RMSE = 2.565451
+[INFO] Trainer: GASA | 2024-11-20_16-53-49 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_16
+==> Finished Test.
+RMSE = 4.808407
+[INFO] Trainer: GASA | 2025-01-15_17-53-01 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_16
+[INFO] Trainer: GASA | 2025-01-15_17-55-06 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_16
+[INFO] Trainer: GASA | 2025-01-15_17-56-49 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_16
+==> Finished Test.
+RMSE = 4.808406
+[INFO] Trainer: GASA | 2025-01-15_17-59-36 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_8
+==> Finished Test.
+RMSE = 2.565450
+[INFO] Trainer: GASA | 2025-01-15_18-01-49 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+==> Finished Test.
+RMSE = 1.388023
+[INFO] Trainer: GASA | 2025-01-16_14-07-57 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+[INFO] Trainer: GASA | 2025-01-16_14-08-17 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+[INFO] Trainer: GASA | 2025-01-16_14-09-06 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+[INFO] Trainer: GASA | 2025-01-16_14-10-20 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+[INFO] Trainer: GASA | 2025-01-16_14-11-01 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+[INFO] Trainer: GASA | 2025-01-16_14-11-59 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+==> Finished Test.
+RMSE = 1.388023
+[INFO] Trainer: GASA | 2025-01-16_19-31-10 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_4
+==> Finished Test.
+RMSE = 1.388023
+[INFO] Trainer: GASA | 2025-01-16_19-34-19 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_8
+==> Finished Test.
+RMSE = 2.565450
+[INFO] Trainer: GASA | 2025-01-16_19-37-07 | cuda | workspace
+[INFO] #parameters: 5524001
+[INFO] Loading /home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar ...
+[WARN] Failed to load optimizer. Skipped.
+[WARN] Failed to load scheduler. Skipped.
+==> Start Test, save results to workspace/results/GASA_NYU_16
+==> Finished Test.
+RMSE = 4.808399
