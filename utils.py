@@ -427,7 +427,7 @@ class Trainer(object):
                     plt.imsave(os.path.join(save_path, self.name+idx+'.png'), pred,vmin=aa,vmax=bb,  cmap="jet")
                     plt.imsave(os.path.join(gt_path, "gt"+idx+'.png'), gt, vmin=aa,vmax=bb, cmap='jet')
                     plt.imsave(os.path.join(input_path, "input"+idx+'.png'), input, vmin=aa,vmax=bb, cmap='jet')
-                    plt.imsave(os.path.join(error_path,  self.name+'error'+idx+'.png'), error,vmin=5,vmax=50,  cmap="plasma")
+                    plt.imsave(os.path.join(error_path,  self.name+'error'+idx+'.png'), error, cmap='viridis')
                 pbar.update(loader.batch_size)
 
         self.log(f"==> Finished Test.") 

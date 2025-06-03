@@ -1,4 +1,21 @@
+# 数据集格式修改后的建议
+
+原代码有自己的数据集格式和加载方式，我们的数据集是将所有数据保存在一个npy文件中，同时原代码显示数据的方式也和我们的不同，所以在指标上看虽然我们的更高，但对比图上我们的更差。
+
+数据集加载类应该用：`datasets/nyu.py`中的`NYU_v2_datsetForGeoDSR`。
+
+测试文件:`test.py`
+
+重新测试后的指标：
+
+|      | 4×   | 8×   | 16×  |
+| ---- | ---- | ---- | ---- |
+| RMSE | 1.46 | 2.70 | 5.14 |
+
+具体结果可以看`result`目录下的日志
+
 # GeoDSR
+
 ## Learning Continuous Depth Representation via Geometric Spatial Aggregator
 ## Accepted to AAAI 2023 [[Paper]](http://arxiv.org/abs/2212.03499)
 Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang

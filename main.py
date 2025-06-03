@@ -44,8 +44,6 @@ parser.add_argument('--checkpoint',  default='scratch', type=str, help='checkpoi
 parser.add_argument('--scale',  default=8, type=int, help='scale')
 parser.add_argument('--interpolation',  default='bicubic', type=str, help='interpolation method to generate lr depth')
 parser.add_argument('--lr',  default=0.0001, type=float, help='learning rate')
-# parser.add_argument('--lr_step',  default=1, type=float, help='learning rate decay step')
-# parser.add_argument('--lr_gamma',  default=0.975, type=float, help='learning rate decay gamma')
 parser.add_argument('--lr_step',  default=60, type=float, help='learning rate decay step')
 parser.add_argument('--lr_gamma',  default=0.2, type=float, help='learning rate decay gamma')
 parser.add_argument('--input_size',  default=256, type=int, help='crop size for hr image')
@@ -58,11 +56,11 @@ parser.add_argument('--model', type=str, default='GASA')
 parser.add_argument('--loss', type=str, default='L1')
 parser.add_argument('--seed', type=int, default=2341)
 parser.add_argument('--dataset', type=str, default='NYU')
-parser.add_argument('--data_root', type=str, default="./data/nyu_labeled/")
+parser.add_argument('--data_root', type=str, default="/data/datasets/NYU/NYUDepthv2/")
 parser.add_argument('--train_batch', type=int, default=1)
 parser.add_argument('--test_batch', type=int, default=1)
 parser.add_argument('--num_workers', type=int, default=8)
-parser.add_argument('--pre_trained_model',  default='Stage_lr-1=2layDSF=biasxSE_RBF_256=8_fix_best.pth.tar', type=str, help='the specific model to load')
+parser.add_argument('--pre_trained_model',  default='/home/cjj/projects/Depth_SR/compare_methods/GeoDSR/checkpoints/GASA_best.pth.tar', type=str, help='the specific model to load')
 parser.add_argument('--test',  action='store_true', help='test mode')
 parser.add_argument('--report_per_image',  action='store_true', help='report RMSE of each image')
 parser.add_argument('--save',  action='store_true', help='save results')
@@ -131,7 +129,7 @@ if not args.save:
     if not args.test and (args.test_val > 0):
         scale_list = [4, 8, 16]
         data_list = ["NYU","Middlebury","Lu","Luz"]
-        root_list = ["./data/nyu_labeled/","./data/depth_enhance/01_Middlebury_Dataset","./data/depth_enhance/03_RGBD_Dataset","./data/depth_enhance/02_RGBZ_Dataset"]
+        root_list = ["/data/datasets/NYU/NYUDepthv2/","./data/depth_enhance/01_Middlebury_Dataset","./data/depth_enhance/03_RGBD_Dataset","./data/depth_enhance/02_RGBZ_Dataset"]
         for num, j in enumerate(data_list):
             dataset = get_dataset(args.name, j)
             rr = root_list[num]
